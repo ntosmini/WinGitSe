@@ -12,14 +12,14 @@ sleep(1);
 
 switch($_GET['mode']){
 	case 'add' :
-		exec('C:/xampp/htdocs/WinGitSe/GitWinAdd.bat');
+		exec('C:/xampp/htdocs/selenium/WinGitSe/GitWinAdd.bat');
 	break;
 	case 'set' :
-		exec('C:/xampp/htdocs/WinGitSe/GitWinSet.bat');
+		exec('C:/xampp/htdocs/selenium/WinGitSe/GitWinSet.bat');
 	break;
 
 	default :
-		exec('C:/xampp/htdocs/WinGitSe/GitWin.bat');
+		exec('C:/xampp/htdocs/selenium/WinGitSe/GitWin.bat');
 	break;
 } //end switch
 
