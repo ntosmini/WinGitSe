@@ -31,4 +31,6 @@ exec('schtasks /run /tn "'.$sName.'" ');
 sleep(1);
 exec('schtasks /delete /tn "'.$sName.'" /f');
 
+echo "완료!!";
+
 ?>
